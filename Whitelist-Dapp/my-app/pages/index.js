@@ -104,7 +104,7 @@ export default function Home() {
     }
   };
 
-  const _numberOfWhitlistLeft = 100 - getNumberOfWhitelisted();
+  const _numberOfWhitlistLeft = 20 - getNumberOfWhitelisted();
   /**
    * checkIfAddressInWhitelist: Checks if the address is in whitelist
    */
@@ -206,7 +206,7 @@ export default function Home() {
          <div>
           <h1 className={styles.title}>Welcome to the ITU Whitelist! 💜 </h1>
           <div className={styles.description}>
-          Get whitelisted for an <a href="link"><strong><u>ITU NFT project</u></strong></a> on Polygon Mumbai 🦄
+          Get whitelisted for an <a href="https://itu-chaindevs-nft.vercel.app/"><strong><u>ITU NFT project</u></strong></a> on Polygon Mumbai 🦄
           </div>
           <div className={styles.description}>
           It is free join! 🚀 But do pay the gas-fee yourself ⛽
