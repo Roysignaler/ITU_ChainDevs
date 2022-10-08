@@ -229,11 +229,11 @@ export default function Home() {
     const provider = await web3ModalRef.current.connect();
     const web3Provider = new providers.Web3Provider(provider);
 
-    // If user is not connected to the Goerli network, let them know and throw an error
+    // If user is not connected to the Mumbai network, let them know and throw an error
     const { chainId } = await web3Provider.getNetwork();
-    if (chainId !== 5) {
-      window.alert("Change the network to Goerli");
-      throw new Error("Change network to Goerli");
+    if (chainId !== 80001) {
+      window.alert("Change the network to Mumbai");
+      throw new Error("Change network to Mumbai");
     }
 
     if (needSigner) {
@@ -252,7 +252,7 @@ export default function Home() {
       // Assign the Web3Modal class to the reference object by setting it's `current` value
       // The `current` value is persisted throughout as long as this page is open
       web3ModalRef.current = new Web3Modal({
-        network: "goerli",
+        network: "mumbai",
         providerOptions: {},
         disableInjectedProvider: false,
       });
@@ -291,7 +291,7 @@ export default function Home() {
     // If wallet is not connected, return a button which allows them to connect their wllet
     if (!walletConnected) {
       return (
-        <button onClick={connectWallet} className={styles.button}>
+        <button onClick={connectWallet} className={styles.button85}>
           Connect your wallet
         </button>
       );
@@ -299,13 +299,13 @@ export default function Home() {
 
     // If we are currently waiting for something, return a loading button
     if (loading) {
-      return <button className={styles.button}>Loading...</button>;
+      return <button className={styles.button85}>Loading...</button>;
     }
 
     // If connected user is the owner, and presale hasnt started yet, allow them to start the presale
     if (isOwner && !presaleStarted) {
       return (
-        <button className={styles.button} onClick={startPresale}>
+        <button className={styles.button85} onClick={startPresale}>
           Start Presale!
         </button>
       );
@@ -328,7 +328,7 @@ export default function Home() {
             Presale has started!!! If your address is whitelisted, Mint a Chain
             Dev 🥳
           </div>
-          <button className={styles.button} onClick={presaleMint}>
+          <button className={styles.button85} onClick={presaleMint}>
             Presale Mint 🚀
           </button>
         </div>
@@ -338,7 +338,7 @@ export default function Home() {
     // If presale started and has ended, its time for public minting
     if (presaleStarted && presaleEnded) {
       return (
-        <button className={styles.button} onClick={publicMint}>
+        <button className={styles.button85} onClick={publicMint}>
           Public Mint 🚀
         </button>
       );
@@ -350,7 +350,7 @@ export default function Home() {
       <Head>
         <title>Chain Devs</title>
         <meta name="description" content="Whitelist-Dapp" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/BSG_tn.svg" />
       </Head>
       <div className={styles.main}>
         <div>
@@ -369,7 +369,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Chain Devs
+      <a href="https://twitter.com/Roysignaler"> Made &nbsp;with &nbsp;&#10084; &nbsp;by &nbsp;Roysignaler & Blockchain Student Group </a>
       </footer>
     </div>
   );
