@@ -316,6 +316,7 @@ export default function Home() {
       return (
         <div>
           <div className={styles.description}>Presale hasnt started!</div>
+          <div className={styles.description}><a href="https://itu-chaindevs-wl.vercel.app/">Check if you are eligible for a Whitelist spot </a></div>
         </div>
       );
     }
@@ -328,6 +329,12 @@ export default function Home() {
             Presale has started!!! If your address is whitelisted, Mint a Chain
             Dev 🥳
           </div>
+          <div className={styles.description}>
+            <a href="https://itu-chaindevs-ico.vercel.app/">Minting an NFT gives you right to claim 25 ChainDevTokens</a> 🚀
+          </div>
+          <div className={styles.description}>
+            <a href="https://itu-chaindevs-ico.vercel.app/"><u>Stay updated on the ICO</u></a>
+          </div>
           <button className={styles.button85} onClick={presaleMint}>
             Presale Mint 🚀
           </button>
@@ -338,9 +345,17 @@ export default function Home() {
     // If presale started and has ended, its time for public minting
     if (presaleStarted && presaleEnded) {
       return (
-        <button className={styles.button85} onClick={publicMint}>
+        <div>
+          <div className={styles.description}>
+            <a href="https://itu-chaindevs-ico.vercel.app/">Minting an NFT gives you right to claim 25 ChainDevTokens</a> 🚀
+          </div>
+          <div className={styles.description}>
+            <a href="https://itu-chaindevs-ico.vercel.app/"><u>Stay updated on the ICO</u></a>
+          </div>
+          <button className={styles.button85} onClick={publicMint}>
           Public Mint 🚀
-        </button>
+          </button>
+        </div>
       );
     }
   };
