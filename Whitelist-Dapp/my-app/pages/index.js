@@ -187,7 +187,7 @@ export default function Home() {
       // Assign the Web3Modal class to the reference object by setting it's `current` value
       // The `current` value is persisted throughout as long as this page is open
       web3ModalRef.current = new Web3Modal({
-        network: "goerli",
+        network: "mumbai",
         providerOptions: {},
         disableInjectedProvider: false,
       });
@@ -212,10 +212,11 @@ export default function Home() {
           It is free join! 🚀 But do pay the gas-fee yourself ⛽
           </div>
           <div className={styles.description}>
+            On Polygon gas is cheap 🏆
             <a href"https://mumbaifaucet.com/">On Mumbai gas will be approx. ~$0.0015</a> 🏆
           </div>
           <div className={styles.description}>
-          <a href="https://mumbai.polygonscan.com/address/0xBDC63773B4957b4AeB9501Dc66Ff6b94dEfE4824#code"> The smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
+          <a href="https://mumbai.polygonscan.com/address/0xae6a88ac27c2f0e35fcf920659b6aa7d3b2af95d#code"> The smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
           </div>
           <div className={styles.description}>
             {numberOfWhitelisted} have already joined the Whitelist.

@@ -357,19 +357,19 @@ export default function Home() {
         <div>
           <h1 className={styles.title}>Welcome to Chain Devs!</h1>
           <div className={styles.description}>
-            Its an NFT collection for Blockchain developers.
+            Its an NFT collection for Blockchain developers 🏆
           </div>
           <div className={styles.description}>
-          <a href="https://mumbai.polygonscan.com/address/0x96379a58d202bc87150f41700e94f5ea2b587492#code"> Smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
+          <a href="https://mumbai.polygonscan.com/address/0xda74a9014c0f88d02723b90ab76cc7e5800d4209#code"> Smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
           </div>
           <div className={styles.description}>
             <a href="https://itu-chaindevs-ico.vercel.app/">Minting an NFT gives you right to claim 25 ChainDevTokens</a> 🚀
           </div>
           <div className={styles.description}>
-            <a href="https://itu-chaindevs-ico.vercel.app/"><u>Stay updated on the ICO</u></a>
+            <a href="https://itu-chaindevs-ico.vercel.app/"><u>Stay updated on the ICO 👀</u></a>
           </div>
           <div className={styles.description}>
-            {tokenIdsMinted}/20 have been minted
+            {tokenIdsMinted}/20 have been minted 🦄
           </div>
           {renderButton()}
         </div>

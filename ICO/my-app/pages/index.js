@@ -388,7 +388,7 @@ export default function Home() {
             <a href="https://itu-chaindevs-nft.vercel.app/">Each <strong>Chain Dev NFT</strong></a> = 25 Chain Dev Tokens 🤑
           </div>
           <div className={styles.description}>
-          <a href="https://mumbai.polygonscan.com/address/0xa7c4dce4c9339b603c478011fef2d9aa2e8781d4#code"> Smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
+          <a href="https://mumbai.polygonscan.com/address/0x53A98D1cFB2689C8cfCa73A4f56689d60c18Cb03#code"> Smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
           </div>
           {walletConnected ? (
             <div>
