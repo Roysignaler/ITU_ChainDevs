@@ -212,7 +212,7 @@ export default function Home() {
           It is free join! 🚀 But do pay the gas-fee yourself ⛽
           </div>
           <div className={styles.description}>
-            On Mumbai gas will be approx. ~$0.0015 🏆
+            <a href"https://mumbaifaucet.com/">On Mumbai gas will be approx. ~$0.0015</a> 🏆
           </div>
           <div className={styles.description}>
           <a href="https://mumbai.polygonscan.com/address/0xBDC63773B4957b4AeB9501Dc66Ff6b94dEfE4824#code"> The smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
