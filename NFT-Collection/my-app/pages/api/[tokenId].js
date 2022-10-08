@@ -12,7 +12,7 @@ export default function handler(req, res) {
       name: "Chain Dev #" + tokenId,
       description: "Chain Dev is a collection of ITU images for BCC developers",
       image: image_url + "ITU_" + tokenId + ".jpg",
-      "attributes": [
+      attributes: [
         {
           "trait_type": "Base", 
           "value": "Blockchain Developer"
