@@ -104,7 +104,7 @@ export default function Home() {
     }
   };
 
-  const _numberOfWhitlistLeft = 100 - getNumberOfWhitelisted();
+  const _numberOfWhitlistLeft = 20 - getNumberOfWhitelisted();
   /**
    * checkIfAddressInWhitelist: Checks if the address is in whitelist
    */
@@ -206,13 +206,13 @@ export default function Home() {
          <div>
           <h1 className={styles.title}>Welcome to the ITU Whitelist! 💜 </h1>
           <div className={styles.description}>
-          Get whitelisted for an <a href="link"><strong><u>ITU NFT project</u></strong></a> on Polygon Mumbai 🦄
+          Get whitelisted for an <a href="https://itu-chaindevs-nft.vercel.app/"><strong><u>ITU NFT project</u></strong></a> on Polygon Mumbai 🦄
           </div>
           <div className={styles.description}>
           It is free join! 🚀 But do pay the gas-fee yourself ⛽
           </div>
           <div className={styles.description}>
-            On Mumbai gas will be approx. ~$0.0015 🏆
+            <a href"https://mumbaifaucet.com/">On Mumbai gas will be approx. ~$0.0015</a> 🏆
           </div>
           <div className={styles.description}>
           <a href="https://mumbai.polygonscan.com/address/0xBDC63773B4957b4AeB9501Dc66Ff6b94dEfE4824#code"> The smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
