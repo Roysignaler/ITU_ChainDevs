@@ -316,6 +316,7 @@ export default function Home() {
       return (
         <div>
           <div className={styles.description}>Presale hasnt started!</div>
+          <div className={styles.description}><a href="https://itu-chaindevs-wl.vercel.app/">Check if you are eligible for a Whitelist spot </a></div>
         </div>
       );
     }
@@ -338,9 +339,9 @@ export default function Home() {
     // If presale started and has ended, its time for public minting
     if (presaleStarted && presaleEnded) {
       return (
-        <button className={styles.button85} onClick={publicMint}>
+          <button className={styles.button85} onClick={publicMint}>
           Public Mint 🚀
-        </button>
+          </button>
       );
     }
   };
@@ -356,10 +357,19 @@ export default function Home() {
         <div>
           <h1 className={styles.title}>Welcome to Chain Devs!</h1>
           <div className={styles.description}>
-            Its an NFT collection for Blockchain developers.
+            Its an NFT collection for Blockchain developers 🏆
           </div>
           <div className={styles.description}>
-            {tokenIdsMinted}/20 have been minted
+          <a href="https://mumbai.polygonscan.com/address/0xda74a9014c0f88d02723b90ab76cc7e5800d4209#code"> Smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
+          </div>
+          <div className={styles.description}>
+            <a href="https://itu-chaindevs-ico.vercel.app/">Minting an NFT gives you right to claim 25 ChainDevTokens</a> 🚀
+          </div>
+          <div className={styles.description}>
+            <a href="https://itu-chaindevs-ico.vercel.app/"><u>Stay updated on the ICO 👀</u></a>
+          </div>
+          <div className={styles.description}>
+            {tokenIdsMinted}/20 have been minted 🦄
           </div>
           {renderButton()}
         </div>
