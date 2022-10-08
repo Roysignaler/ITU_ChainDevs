@@ -329,12 +329,6 @@ export default function Home() {
             Presale has started!!! If your address is whitelisted, Mint a Chain
             Dev 🥳
           </div>
-          <div className={styles.description}>
-            <a href="https://itu-chaindevs-ico.vercel.app/">Minting an NFT gives you right to claim 25 ChainDevTokens</a> 🚀
-          </div>
-          <div className={styles.description}>
-            <a href="https://itu-chaindevs-ico.vercel.app/"><u>Stay updated on the ICO</u></a>
-          </div>
           <button className={styles.button85} onClick={presaleMint}>
             Presale Mint 🚀
           </button>
@@ -345,17 +339,9 @@ export default function Home() {
     // If presale started and has ended, its time for public minting
     if (presaleStarted && presaleEnded) {
       return (
-        <div>
-          <div className={styles.description}>
-            <a href="https://itu-chaindevs-ico.vercel.app/">Minting an NFT gives you right to claim 25 ChainDevTokens</a> 🚀
-          </div>
-          <div className={styles.description}>
-            <a href="https://itu-chaindevs-ico.vercel.app/"><u>Stay updated on the ICO</u></a>
-          </div>
           <button className={styles.button85} onClick={publicMint}>
           Public Mint 🚀
           </button>
-        </div>
       );
     }
   };
@@ -375,6 +361,12 @@ export default function Home() {
           </div>
           <div className={styles.description}>
           <a href="https://mumbai.polygonscan.com/address/0x96379a58d202bc87150f41700e94f5ea2b587492#code"> Smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
+          </div>
+          <div className={styles.description}>
+            <a href="https://itu-chaindevs-ico.vercel.app/">Minting an NFT gives you right to claim 25 ChainDevTokens</a> 🚀
+          </div>
+          <div className={styles.description}>
+            <a href="https://itu-chaindevs-ico.vercel.app/"><u>Stay updated on the ICO</u></a>
           </div>
           <div className={styles.description}>
             {tokenIdsMinted}/20 have been minted
