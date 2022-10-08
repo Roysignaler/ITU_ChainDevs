@@ -374,6 +374,9 @@ export default function Home() {
             Its an NFT collection for Blockchain developers.
           </div>
           <div className={styles.description}>
+          <a href="https://mumbai.polygonscan.com/address/0x96379a58d202bc87150f41700e94f5ea2b587492#code"> Smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
+          </div>
+          <div className={styles.description}>
             {tokenIdsMinted}/20 have been minted
           </div>
           {renderButton()}
