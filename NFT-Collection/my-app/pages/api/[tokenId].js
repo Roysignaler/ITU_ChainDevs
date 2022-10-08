@@ -11,6 +11,35 @@ export default function handler(req, res) {
     res.status(200).json({
       name: "Chain Dev #" + tokenId,
       description: "Chain Dev is a collection of ITU images for BCC developers",
-      image: image_url + "ITU_" + tokenId + ".svg",
+      image: image_url + "ITU_" + tokenId + ".jpg",
+      attributes: [
+        {
+          "trait_type": "Base", 
+          "value": "Blockchain Developer"
+        },
+        {
+            "trait_type": "University", 
+            "value": "IT-University of Copenhagen"
+        },
+        {
+            "trait_type": "Event", 
+            "value": "Blockchain Coding Café"
+        }, 
+        {
+          "display_type": "boost_number", 
+          "trait_type": "Coding Power", 
+          "value": 99
+        }, 
+        {
+          "display_type": "boost_percentage", 
+          "trait_type": "Stamina Increase", 
+          "value": 5
+        }, 
+        {
+          "display_type": "number", 
+          "trait_type": "Generation", 
+          "value": 1
+        }
+      ]
     });
   }
