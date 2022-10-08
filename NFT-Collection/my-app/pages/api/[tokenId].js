@@ -11,6 +11,6 @@ export default function handler(req, res) {
     res.status(200).json({
       name: "Chain Dev #" + tokenId,
       description: "Chain Dev is a collection of ITU images for BCC developers",
-      image: image_url + "ITU_" + tokenId + ".svg",
+      image: image_url + "ITU_" + tokenId + ".jpg",
     });
   }
