@@ -374,7 +374,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Chain Devs</title>
+        <title>ICO Chain Devs</title>
         <meta name="description" content="ICO-Dapp" />
         <link rel="icon" href="/BSG_tn.svg" />
       </Head>
