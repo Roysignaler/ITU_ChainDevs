@@ -360,7 +360,7 @@ export default function Home() {
             Its an NFT collection for Blockchain developers 🏆
           </div>
           <div className={styles.description}>
-          <a href="https://mumbai.polygonscan.com/address/0xda74a9014c0f88d02723b90ab76cc7e5800d4209#code"> Smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
+          <a href="https://mumbai.polygonscan.com/address/0x30cfeBFFFa7114013FbE858Cc4708De275da61ac#code"> Smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
           </div>
           <div className={styles.description}>
             <a href="https://itu-chaindevs-ico.vercel.app/">Minting an NFT gives you right to claim 25 ChainDevTokens</a> 🚀
