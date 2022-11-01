@@ -215,7 +215,7 @@ export default function Home() {
             On Mumbai gas is cheap 🏆
           </div>
           <div className={styles.description}>
-          <a href="https://mumbai.polygonscan.com/address/0xae6a88ac27c2f0e35fcf920659b6aa7d3b2af95d#code"> The smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
+          <a href="https://mumbai.polygonscan.com/address/0xB56eC9d68E18d5D149A9C013f381B038a213180C"> The smart contract is verified ✅ <strong><u>Read it yourself</u></strong> 📖 </a>
           </div>
           <div className={styles.description}>
             {numberOfWhitelisted} have already joined the Whitelist.
